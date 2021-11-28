@@ -4,6 +4,7 @@ coverage
 coverage.json
 typechain
 secrets.json
+.openzeppelin
 
 #Hardhat files
 cache
