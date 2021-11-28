@@ -6,6 +6,10 @@ contract BoxV3 {
 
     event ValueChanged(uint256 value);
 
+    function initialize(uint256 value) public {
+        _value = value;
+    }
+
     function store(uint256 value) public {
         _value = value;
         emit ValueChanged(value);

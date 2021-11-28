@@ -11,6 +11,10 @@ contract Box {
 
     event ValueChanged(uint256 value);
 
+    function initialize(uint256 value) public {
+        _value = value;
+    }
+
     // The onlyOwner modifier restricts who can call the store function
     // function store(uint256 value) public onlyOwner {
     function store(uint256 value) public {
