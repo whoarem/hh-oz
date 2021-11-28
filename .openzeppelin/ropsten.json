@@ -47,6 +47,11 @@
       "address": "0xbD9Df1bfb2f9d4060851962f4C7ba75E5FcA9331",
       "txHash": "0x9b8d713c15c42ffcfb35c103cc4426937a9362999901077d3c4be7750859492f",
       "kind": "transparent"
+    },
+    {
+      "address": "0xB5643e636B38C5614A7f1C819a4AfC0dd4a32fbC",
+      "txHash": "0x985fb5d9268454f83f05f346ad33669bb0349632f228c0629847639f0b86ab47",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -85,6 +90,25 @@
             "label": "_value",
             "type": "t_uint256",
             "src": "contracts/BoxV2.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "01c3ba37320016517cdb11c3854419e58447d3987ca7ee58cc7d8498e0984ab2": {
+      "address": "0x60Cfc2D60d4dB9061494703510A9242d5B28A081",
+      "txHash": "0x5e2da4d7179c8200e98d69a15cd4531d1589c338c977af65dfa13cf71f7ca46d",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV3",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "contracts/BoxV3.sol:5"
           }
         ],
         "types": {

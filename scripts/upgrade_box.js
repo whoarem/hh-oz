@@ -5,7 +5,7 @@ async function main() {
   const BoxV3 = await ethers.getContractFactory('BoxV3')
   console.log('Upgrading Box...')
   await upgrades.upgradeProxy(
-    '0x1Cb809B8d0fA78DcBEE843349fc0518C98B6e647',
+    '0xB5643e636B38C5614A7f1C819a4AfC0dd4a32fbC',
     BoxV3
   )
   console.log('Box upgraded')
